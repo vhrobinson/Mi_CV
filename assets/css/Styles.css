@@ -1,0 +1,49 @@
+body {
+    font: 5rem/1.5 var(--bs-font-sans-serif);
+  }
+  a {
+    color: var(--bs-blue);
+  }
+
+.main {
+    background-color:black
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    text-align: justify;
+    margin: 5%;
+    
+    
+}
+#Hero-Section {
+  background-image: url("../img/surdechile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 2rem;
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 2rem;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
